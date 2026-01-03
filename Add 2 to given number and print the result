@@ -1,0 +1,11 @@
+//Question:- Get a number from the user, add 2 to that number, and print the result
+#include<stdio.h>
+int main()
+{
+    int k;
+    printf("Enter the number : ");
+    scanf("%d",&k);
+    printf("The output after 2 to the given number is %d : ",k+2);
+    //k+=2;
+    //printf("The output after 2 to the given number is %d : ",k);
+}
