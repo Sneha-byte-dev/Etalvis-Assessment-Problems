@@ -1,0 +1,12 @@
+//Question:- Get a three digit number from the user and print the ten's digit.
+#include<stdio.h>
+int main()
+{
+    int y,n;
+    printf("Enter a three digit number : ");
+    scanf("%d",&y);
+    n=y;
+    y=y/10;
+    y=y%10;
+    printf("The tens digit of %d is %d ",n,y);
+}
