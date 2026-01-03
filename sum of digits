@@ -1,0 +1,15 @@
+Question:- Get a two digit number from the user and print the sum of the digits.
+#include<stdio.h>
+int main()
+{
+    int n,r,s=0;
+    printf("Enter the 2 digit number : ");
+    scanf("%d",&n);
+    while(n!=0)
+    {
+        r=n%10;
+        s+=r;
+        n=n/10;
+    }
+    printf("The sum of digits is : %d",s);
+}
