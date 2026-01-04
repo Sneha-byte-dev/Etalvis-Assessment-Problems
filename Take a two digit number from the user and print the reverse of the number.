@@ -1,0 +1,12 @@
+//Question:- Get a two digit number from the user and print the reverse of the number.
+#include<stdio.h>
+int main()
+{
+    int x,r=0,n=0;
+    printf("Enter Number: ");
+    scanf("%d",&x);
+    n=x%10;
+    x=x/10;
+    r=(num*10)+x;
+    printf("Result = %d",r);
+}
